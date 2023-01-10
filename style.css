@@ -1,0 +1,208 @@
+.body{
+    font-family: monospace;
+}
+.font-primary {
+    color: #00abae;
+}
+.title-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    font-size: 14px;
+}
+h2{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+a .font-black{
+    color: black !important ;
+}
+.hrline {
+    align-self: center;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: whitesmoke;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    bottom: 50px;
+
+}
+nav .logo{
+    color: cyan;
+    font-size: 35px;
+    font-weight: 600;
+}
+.logo span{
+    color: black;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 50px;
+    
+}
+nav ul {
+    margin-left: 50px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+    color: black;
+    background: whitesmoke;
+}
+nav .menu-btn i{
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+input[type="checkbox"]{
+    display: none;
+}
+/* about section */
+#about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+#about img {
+    border-radius: 50%;
+    width: 113px;
+    height: 113px;
+    margin-bottom: 10px;
+}
+#about .name{
+    font-size: 19px;
+}
+#about .vocation{
+    font-size: 17px;
+    color: #a8a8ae;
+    margin-bottom: 10px;
+}
+#about .skills{
+    font-size: 14px;
+    color: #00abae;
+    margin-bottom: 10px;
+}
+#about .email{
+    margin-top: 20px;
+    font-size: 16px;
+}
+#about .icon{
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+
+}
+/*projects section*/
+.projects{
+    color: black;
+    font-style: bold;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects .section{
+    display: flex;
+    width: 80%;
+    margin: 0.5%;
+    border: 0.5px solid black;
+    border-radius: 1rem;
+    text-align: left;;
+    margin-bottom: 0;
+}
+.section img{
+    width: 100%;
+    height: 100%;
+    padding-right: 50px;
+}
+.section .left-section{
+    width: 40%;
+}
+.left-section p {
+    font-weight: 55px;
+    font-style: normal;
+}
+.section .right-section{
+    width: 40%;
+}
+.btn-group .button{
+    background-color: hsl(216, 3%, 66%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5%;
+
+}
+.btn-group .button:hover{
+    background-color: #1cb83e;
+}
+.projects .section1{
+    display: flex;
+    width: 80%;
+    margin: 1%;
+    border: 0.5px solid black;
+    border-radius: 1rem;
+    text-align: left;;
+    margin-bottom: 0;
+}
+.section1 img{
+    width: 80%;
+    height: 100%;
+    padding-right: 50px;
+}
+.section1 .left-section1{
+    width: 40%;
+}
+.left-section1 p {
+    font-weight: 55px;
+    font-style: normal;
+}
+.section1 .right-section1{
+    width: 40%;
+}
+.btn-group .button{
+    background-color: hsl(216, 3%, 66%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5%;
+
+}
+.btn-group .button:hover{
+    background-color: #1cb83e;
+}
